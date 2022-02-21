@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/citybusstation"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textColor="@color/teal_200"
+        android:textColorLink="@color/black"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="127dp"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/title1" />
+
+    <Button
+        android:id="@+id/Btn2"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/title2"/>
+
+    <Button
+        android:id="@+id/Btn3"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/title3"/>
+
+    <Button
+        android:id="@+id/Btn4"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/orange"
+        android:text="@string/title4"/>
+    
+    <WebView
+        android:id="@+id/website"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>
