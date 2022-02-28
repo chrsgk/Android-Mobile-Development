@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/station"
+    tools:context=".Empresa">
+
+    <TextView
+        android:id="@+id/Empresa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/sobre"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/Btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@id/Empresa"
+        android:text="@string/title6"
+        android:backgroundTint="@color/orange"
+        android:textSize="12sp"/>
+
+</RelativeLayout>
