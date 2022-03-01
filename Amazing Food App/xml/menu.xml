@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/especias">
+
+    <Button
+        android:id="@+id/Btn2"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:text="@string/button2" />
+    <Button
+    android:id="@+id/Btn3"
+    android:layout_width="128dp"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/blue"
+    android:text="@string/button3"/>
+
+    <Button
+    android:id="@+id/Btn4"
+    android:layout_width="128dp"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/green"
+    android:text="@string/button4"/>
+
+    <Button
+    android:id="@+id/Btn5"
+    android:layout_width="128dp"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/red"
+    android:text="@string/button5"/>
+
+    <Button
+    android:id="@+id/Btn6"
+    android:layout_width="128dp"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/yellow"
+    android:text="@string/button6"/>
+
+
+
+</LinearLayout>
+</HorizontalScrollView>
